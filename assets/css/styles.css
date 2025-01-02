@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #143c3c;
+    --text-color-white: #fff;
+    --text-color-black-gray: #575d5e;
+    --text-color-black: #152427;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Poppins;
+    font-size: 1.6rem;
+}
+
+/* common */
+.container {
+    width: min(100% - 32px, 1140px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-flex;
+    width: 173px;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 1.5px solid var(--color-primary);
+    background-color: var(--color-primary);
+
+    color: var(--text-color-white);
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--text-color-white);
+    color: var(--color-primary);
+}
+
+/* header */
+.header {
+    position: sticky;
+    top: -15px;
+    left: 0;
+    padding-top: 28px;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 13px;
+    position: relative;
+}
+
+.header__main::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    content: "";
+    background: linear-gradient(
+        90deg,
+        #fff 0%,
+        #dddcdc 51.09%,
+        rgba(212, 212, 212, 0) 99.68%
+    );
+    height: 1px;
+}
+
+.header__group {
+    display: flex;
+    align-items: center;
+    column-gap: 69px;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.navbar__item {
+    display: inline-block;
+    padding: 15px 19px;
+    color: var(--text-color-black-gray);
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    transition: color 0.3s ease;
+}
+
+.navbar__item:hover {
+    color: var(--text-color-black);
+}
+
+.navbar__item--active {
+    color: var(--text-color-black);
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56;
+    position: relative;
+}
+
+.navbar__item--active::after {
+    position: absolute;
+    bottom: -12px;
+    left: 20px;
+    display: block;
+    content: "";
+    width: 16px;
+    height: 2px;
+    background-color: var(--text-color-black-gray);
+}
