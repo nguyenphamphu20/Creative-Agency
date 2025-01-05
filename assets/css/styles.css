@@ -969,3 +969,128 @@ main {
     background: var(--color-primary);
     color: #fff;
 }
+
+/* footer */
+.footer {
+    margin-top: 102px;
+    background: var(--color-primary);
+    padding-top: 72px;
+    padding-bottom: 50px;
+}
+
+.footer__main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+
+.footer__main::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        #143c3c 2.28%,
+        #295a5a 55.65%,
+        rgba(38, 82, 82, 0) 102.06%
+    );
+}
+
+.footer__heading {
+    color: #fff;
+}
+
+.footer__email {
+    position: relative;
+    padding: 10px 0;
+    margin-top: 25px;
+    width: 354px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__email::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #6a8383;
+}
+
+.footer__input-email {
+    padding-bottom: 20px;
+    width: 80%;
+    height: 52px;
+    outline: none;
+    border: none;
+    background-color: var(--color-primary);
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.footer__input-email::placeholder {
+    color: #6a8383;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+}
+
+.footer__btn path {
+    transition: stroke ease 0.3s;
+}
+
+.footer__btn:hover path {
+    stroke: var(--text-color-black);
+}
+
+.footer__group-social {
+    margin-top: 47px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__group-social svg:hover circle:first-child {
+    fill: #a75325;
+    stroke: none;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.footer-item__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-item__item {
+    color: #6a8383;
+    font-family: "Public Sans";
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2; /* 225% */
+}
+
+.footer-item__item--title {
+    color: #fff;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.56; /* 155.556% */
+}
