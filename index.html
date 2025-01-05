@@ -13,10 +13,18 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet"
         />
+        <!-- animations -->
+        <link rel="preconnect" href="https://unpkg.com" />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- styles css -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body style="height: 10000px">
+    <body>
         <!-- header -->
         <header class="header">
             <div class="container">
@@ -67,15 +75,19 @@
                     <div class="hero__main">
                         <section class="hero__content">
                             <h1
-                                class="header__heading heading-level-1 line-clamp"
+                                class="header__heading heading-level-1 line-clamp animate__animated animate__bounceIn"
                             >
                                 We’re a creative design agency.
                             </h1>
-                            <p class="header__desc">
+                            <p
+                                class="header__desc animate__animated animate__flipInX"
+                            >
                                 A brilliant, modular agency template for
                                 startup’s build yours toady.
                             </p>
-                            <div class="header__cta">
+                            <div
+                                class="header__cta animate__animated animate__zoomIn"
+                            >
                                 <a href="#!" class="header__touch-btn btn"
                                     >Get in touch</a
                                 >
@@ -91,37 +103,37 @@
                             <img
                                 src="./assets/images/hero-1.jpg"
                                 alt="picture 01"
-                                class="header__img"
+                                class="header__img animate__animated animate__slideInDown"
                             />
                             <img
                                 src="./assets/images/hero-2.jpg"
                                 alt="picture 02"
-                                class="header__img"
+                                class="header__img animate__animated animate__slideInUp"
                             />
                             <img
                                 src="./assets/images/hero-3.jpg"
                                 alt="picture 03"
-                                class="header__img"
+                                class="header__img animate__animated animate__slideInDown"
                             />
                             <img
                                 src="./assets/icon/avastract-hero.svg"
                                 alt="avastract-hero"
-                                class="hero__avastract-1"
+                                class="hero__avastract-1 animate__animated animate__zoomInLeft"
                             />
                             <img
                                 src="./assets/icon/avastract-hero.svg"
                                 alt="avastract-hero"
-                                class="hero__avastract-2"
+                                class="hero__avastract-2 animate__animated animate__zoomInRight"
                             />
                             <img
                                 src="./assets/icon/vector-hero.svg"
                                 alt="vector-hero"
-                                class="hero__vector-1"
+                                class="hero__vector-1 animate__animated animate__zoomInLeft"
                             />
                             <img
                                 src="./assets/icon/vector-hero.svg"
                                 alt="vector-hero"
-                                class="hero__vector-2"
+                                class="hero__vector-2 animate__animated animate__zoomInRight"
                             />
                         </figure>
                     </div>
@@ -130,7 +142,7 @@
             <!-- social -->
             <section class="social">
                 <div class="container">
-                    <section class="social__main">
+                    <section class="social__main" data-aos="fade-up">
                         <figure class="social__images">
                             <a href="#!">
                                 <img
@@ -175,12 +187,17 @@
             <section class="service">
                 <div class="container">
                     <section class="service-header">
-                        <h5 class="title service__title">OUR SERVICES</h5>
+                        <h5 class="title service__title" data-aos="fade-up">
+                            OUR SERVICES
+                        </h5>
                         <div class="service__row">
-                            <h2 class="service__heading heading-level-2 line">
+                            <h2
+                                class="service__heading heading-level-2 line-clamp"
+                                data-aos="fade-right"
+                            >
                                 We offer a wide range of design services
                             </h2>
-                            <div class="service__control">
+                            <div class="service__control" data-aos="fade-left">
                                 <figure class="service__previous">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +253,10 @@
                         <ul class="service__list">
                             <!-- item 1 -->
                             <a href="#!">
-                                <li class="service__item">
+                                <li
+                                    class="service__item"
+                                    data-aos="fade-up-right"
+                                >
                                     <figure class="service__images">
                                         <img
                                             src="./assets/images/service-01.jpg"
@@ -258,7 +278,7 @@
                             </a>
                             <!-- item 2 -->
                             <a href="#!">
-                                <li class="service__item">
+                                <li class="service__item" data-aos="fade-up">
                                     <figure class="service__images">
                                         <img
                                             src="./assets/images/service-02.jpg"
@@ -280,7 +300,10 @@
                             </a>
                             <!-- item 3 -->
                             <a href="#!">
-                                <li class="service__item">
+                                <li
+                                    class="service__item"
+                                    data-aos="fade-up-right"
+                                >
                                     <figure class="service__images">
                                         <img
                                             src="./assets/images/service-03.jpg"
@@ -313,11 +336,13 @@
                                 src="./assets/images/about-us-01.jpg"
                                 alt="We are an extention of your creative team"
                                 class="about-us__img"
+                                data-aos="zoom-in-up"
                             />
                             <img
                                 src="./assets/images/about-us-02.jpg"
                                 alt="We are an extention of your creative team"
                                 class="about-us__img"
+                                data-aos="zoom-in-down"
                             />
                             <img
                                 src="./assets/icon/vector-hero.svg"
@@ -329,7 +354,7 @@
                                 alt="avastract-about-us"
                                 class="about-us__avastract"
                             />
-                            <div class="about-us-trend">
+                            <div class="about-us-trend" data-aos="flip-up">
                                 <h6 class="about-us-trend__title">
                                     All Desingners
                                 </h6>
@@ -368,7 +393,12 @@
                                 </div>
                             </div>
                         </figure>
-                        <section class="about-us__content">
+                        <section
+                            class="about-us__content"
+                            data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine"
+                        >
                             <h5 class="title about-us__title">ABOUT US</h5>
                             <h2
                                 class="about-us__heading heading-level-2 line-clamp"
@@ -404,7 +434,7 @@
             <!-- process -->
             <section class="process">
                 <div class="container">
-                    <section class="process__header">
+                    <section class="process__header" data-aos="fade-down">
                         <h5 class="title process__title">OUR PROCESS</h5>
                         <h1 class="process__heading heading-level-2">
                             A simple ,yet effective three step process
@@ -413,7 +443,7 @@
                     <section class="process__body">
                         <ul class="process__list">
                             <!-- item 1 -->
-                            <li class="process__item">
+                            <li class="process__item" data-aos="fade-down">
                                 <a href="#!">
                                     <h3
                                         class="process__subtitle process__subtitle--link"
@@ -431,7 +461,7 @@
                                 </figure>
                             </li>
                             <!-- item 2 -->
-                            <li class="process__item">
+                            <li class="process__item" data-aos="fade-down">
                                 <h3 class="process__subtitle">
                                     Brainstormaing
                                 </h3>
@@ -443,7 +473,7 @@
                                 </p>
                             </li>
                             <!-- item 3 -->
-                            <li class="process__item">
+                            <li class="process__item" data-aos="fade-down">
                                 <h3 class="process__subtitle">Execution</h3>
                                 <p class="process__desc">
                                     We customse a ensure aligment and difine key
@@ -499,7 +529,10 @@
             <!-- service features -->
             <section class="service-features">
                 <div class="container">
-                    <section class="service-features__header">
+                    <section
+                        class="service-features__header"
+                        data-aos="fade-down-right"
+                    >
                         <h2 class="service-features__heading heading-level-2">
                             Share the features that help your customers
                         </h2>
@@ -513,7 +546,10 @@
                     <section class="service-features__body">
                         <ul class="service-features__list">
                             <!-- item 1 -->
-                            <li class="service-features__item">
+                            <li
+                                class="service-features__item"
+                                data-aos="flip-right"
+                            >
                                 <img
                                     src="./assets/icon/blog.svg"
                                     alt="Blog icon"
@@ -528,7 +564,10 @@
                                 </p>
                             </li>
                             <!-- item 2 -->
-                            <li class="service-features__item">
+                            <li
+                                class="service-features__item"
+                                data-aos="flip-right"
+                            >
                                 <img
                                     src="./assets/icon/documention.svg"
                                     alt="Documention icon"
@@ -545,7 +584,10 @@
                                 </p>
                             </li>
                             <!-- item 3 -->
-                            <li class="service-features__item">
+                            <li
+                                class="service-features__item"
+                                data-aos="flip-right"
+                            >
                                 <img
                                     src="./assets/icon/customers.svg"
                                     alt="Customers icon"
@@ -567,7 +609,7 @@
             <!-- blog -->
             <section class="blog">
                 <div class="container">
-                    <section class="blog__header">
+                    <section class="blog__header" data-aos="zoom-in">
                         <h5 class="title blog-title">BLOG & ARTICLES</h5>
                         <div class="blog__row">
                             <h2
@@ -581,7 +623,7 @@
                             </p>
                         </div>
                     </section>
-                    <section class="blog__body">
+                    <section class="blog__body" data-aos="zoom-in">
                         <ul class="blog__list">
                             <!-- item 1 -->
                             <li class="blog__item">
@@ -807,41 +849,121 @@
                             <!-- item 1 -->
                             <li class="footer-item">
                                 <ul class="footer-item__list">
-                                    <li class="footer-item__item footer-item__item--title">Pages</li>
-                                    <a href="#!"><li class="footer-item__item">Home</li></a>
-                                    <a href="#!"><li class="footer-item__item">About</li></a>
-                                    <a href="#!"><li class="footer-item__item">Blog</li></a>
-                                    <a href="#!"><li class="footer-item__item">Blog Posts</li></a>
+                                    <li
+                                        class="footer-item__item footer-item__item--title"
+                                    >
+                                        Pages
+                                    </li>
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Home
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            About
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Blog
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Blog Posts
+                                        </li></a
+                                    >
                                 </ul>
                             </li>
                             <!-- item 2 -->
                             <li class="footer-item">
                                 <ul class="footer-item__list">
-                                    <li class="footer-item__item footer-item__item--title">Product</li>
-                                    <a href="#!"><li class="footer-item__item">Home</li></a>
-                                    <a href="#!"><li class="footer-item__item">About</li></a>
-                                    <a href="#!"><li class="footer-item__item">Blog</li></a>
-                                    <a href="#!"><li class="footer-item__item">Blog Posts</li></a>
+                                    <li
+                                        class="footer-item__item footer-item__item--title"
+                                    >
+                                        Product
+                                    </li>
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Home
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            About
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Blog
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Blog Posts
+                                        </li></a
+                                    >
                                 </ul>
                             </li>
                             <!-- item 3 -->
                             <li class="footer-item">
                                 <ul class="footer-item__list">
-                                    <li class="footer-item__item footer-item__item--title">Overview</li>
-                                    <a href="#!"><li class="footer-item__item">Home1</li></a>
-                                    <a href="#!"><li class="footer-item__item">Home2</li></a>
-                                    <a href="#!"><li class="footer-item__item">Home3</li></a>
-                                    <a href="#!"><li class="footer-item__item">Pricing1</li></a>
+                                    <li
+                                        class="footer-item__item footer-item__item--title"
+                                    >
+                                        Overview
+                                    </li>
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Home1
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Home2
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Home3
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Pricing1
+                                        </li></a
+                                    >
                                 </ul>
                             </li>
                             <!-- item 4 -->
                             <li class="footer-item">
                                 <ul class="footer-item__list">
-                                    <li class="footer-item__item footer-item__item--title">About us</li>
-                                    <a href="#!"><li class="footer-item__item">Team</li></a>
-                                    <a href="#!"><li class="footer-item__item">Investors</li></a>
-                                    <a href="#!"><li class="footer-item__item">Blog</li></a>
-                                    <a href="#!"><li class="footer-item__item">Press</li></a>
+                                    <li
+                                        class="footer-item__item footer-item__item--title"
+                                    >
+                                        About us
+                                    </li>
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Team
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Investors
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Blog
+                                        </li></a
+                                    >
+                                    <a href="#!"
+                                        ><li class="footer-item__item">
+                                            Press
+                                        </li></a
+                                    >
                                 </ul>
                             </li>
                         </ul>
@@ -849,5 +971,9 @@
                 </div>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
