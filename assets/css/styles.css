@@ -197,12 +197,14 @@ main {
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.56; /* 155.556% */
+    animation-duration: 1.5s;
 }
 
 .header__cta {
     margin-top: 42px;
     display: flex;
     gap: 36px;
+    animation-duration: 1s;
 }
 
 .header__images {
