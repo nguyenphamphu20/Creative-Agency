@@ -3,12 +3,14 @@
     visibility: hidden;
 }
 
+/* responsive for pc */
 @media screen and (min-width: 992px) {
     .hidden-on-pc {
         display: none;
     }
 }
 
+/* responsive for tablet */
 @media screen and (max-width: 991.98px) {
     .hidden-on-tablet {
         display: none;
@@ -71,4 +73,18 @@
     .navbar__list--tablet .navbar__item--active::after {
         display: none;
     }
+
+    /* hero */
+    .hero__main {
+        flex-direction: column;
+    }
+
+    .header__images {
+        align-self: center;
+    }
+
+    .header__img {
+        height: 400px;
+    }
+
 }

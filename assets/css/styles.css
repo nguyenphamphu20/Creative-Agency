@@ -22,14 +22,14 @@ body {
 
 /* common */
 .container {
-    width: min(100% - 32px, 1140px);
+    width: min(100% - 40px, 1140px);
     margin-left: auto;
     margin-right: auto;
 }
 
 .btn {
     display: inline-flex;
-    width: 173px;
+    min-width: 173px;
     height: 57px;
     justify-content: center;
     align-items: center;
@@ -209,6 +209,7 @@ main {
 
 .header__images {
     width: 65%;
+    height: 543px;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -261,8 +262,8 @@ main {
 }
 
 .header__img {
-    width: 202px;
-    height: 466px;
+    width: 27.27%;
+    height: 86%;
     border-radius: 110px;
     object-fit: cover;
 }
