@@ -144,4 +144,16 @@
         width: 100%;
         grid-column: 1/-1;
     }
+
+    /* service features */
+
+    .service-features__list {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .service-features__item {
+        pointer-events: none;
+    }
 }
