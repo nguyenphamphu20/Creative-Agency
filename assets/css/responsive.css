@@ -156,4 +156,19 @@
     .service-features__item {
         pointer-events: none;
     }
+
+    /* blog */
+
+    .blog__desc {
+        width: 100%;
+    }
+
+    .blog__list {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .blog__item {
+        width: 80%;
+    }
 }
