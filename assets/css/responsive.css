@@ -123,7 +123,25 @@
     .about-us__statistical {
         gap: 20px;
     }
+
     .about-us__sub {
         width: 80%;
+    }
+
+    /* process */
+    .process__list {
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .process__item {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .process__desc {
+        width: 100%;
+        grid-column: 1/-1;
     }
 }

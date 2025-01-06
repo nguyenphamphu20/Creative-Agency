@@ -652,9 +652,11 @@ main {
 
 .process__item {
     counter-increment: item;
-    display: flex;
-    justify-content: space-around;
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    justify-content: space-around;
     height: 185px;
 }
 
