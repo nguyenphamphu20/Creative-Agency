@@ -96,4 +96,34 @@
         width: 100%;
         padding: 0 74px;
     }
+    .about-us__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        row-gap: 117px;
+    }
+
+    .about-us__images {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .about-us-trend {
+        left: calc(50% + 12px);
+    }
+
+    .about-us__content {
+        width: 100%;
+    }
+
+    .about-us__statistical {
+        gap: 20px;
+    }
+    .about-us__sub {
+        width: 80%;
+    }
 }

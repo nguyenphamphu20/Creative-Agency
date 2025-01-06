@@ -426,11 +426,12 @@ main {
 .about-us__main {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about-us__images {
     position: relative;
-    width: 52%;
+    width: 592px;
     display: flex;
     justify-content: space-between;
 }
@@ -574,7 +575,8 @@ main {
 }
 
 .about-us__content {
-    width: 43%;
+    width: 490px;
+    flex-shrink: 0;
 }
 
 .about-us__heading {
