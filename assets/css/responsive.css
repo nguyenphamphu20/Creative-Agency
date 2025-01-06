@@ -89,5 +89,11 @@
     /* social */
     .social__images {
         gap: 27px;
+        padding: 10px;
+    }
+    /* service */
+    .service__item {
+        width: 100%;
+        padding: 0 74px;
     }
 }
