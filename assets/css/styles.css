@@ -277,22 +277,22 @@ main {
     margin-top: 130px;
 }
 
-.social__main {
-    width: 1140px;
-    height: 201px;
+.social__images {
+    padding: 5px;
+    display: flex;
+    min-height: 201px;
     border-radius: 100.5px;
     background-color: #e2eddf;
-}
-
-.social__images {
-    display: flex;
-    height: 100%;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    column-gap: 64px;
+    align-content: center;
+    gap: 54px;
 }
 
 .social__img {
+    width: 167px;
+    height: 38px;
+    display: inline-block;
     transition: transform 0.3s ease;
 }
 
