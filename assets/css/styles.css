@@ -741,6 +741,8 @@ main {
 .features__header {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
     justify-content: space-between;
 }
 
@@ -1076,8 +1078,11 @@ main {
     stroke: var(--text-color-black);
 }
 
-.footer__group-social {
+.footer__row {
     margin-top: 47px;
+}
+
+.footer__group-social {
     width: 200px;
     display: flex;
     align-items: center;
