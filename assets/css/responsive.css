@@ -388,4 +388,9 @@
     .process__desc {
         padding-bottom: 10px;
     }
+
+    /* features */
+    .features {
+        margin-top: 50px;
+    }
 }
