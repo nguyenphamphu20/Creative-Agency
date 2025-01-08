@@ -149,6 +149,18 @@
 
     /* service features */
 
+    .service-features__header {
+        width: 100%;
+    }
+
+    .service-features__heading {
+        width: 100%;
+    }
+
+    .service-features__desc {
+        width: 100%;
+    }
+
     .service-features__list {
         flex-wrap: wrap;
         gap: 30px;
@@ -392,5 +404,23 @@
     /* features */
     .features {
         margin-top: 50px;
+    }
+
+    /* features - service */
+    .service-features__body {
+        margin-top: 30px;
+    }
+
+    /* blog */
+    .blog {
+        margin-top: 50px;
+    }
+
+    .blog__heading {
+        width: 278px;
+    }
+
+    .blog__desc {
+        width: 272px;
     }
 }
