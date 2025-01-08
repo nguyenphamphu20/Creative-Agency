@@ -98,6 +98,12 @@
         padding: 0 74px;
     }
     /* about -us */
+
+    .about-us {
+        margin-top: 0;
+        padding-top: 50px;
+        overflow-x: hidden;
+    }
     .about-us__main {
         display: flex;
         flex-direction: column;
@@ -423,4 +429,12 @@
     .blog__desc {
         width: 272px;
     }
+
+    /* footer  */
+    .footer__list-tablet {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    
 }
