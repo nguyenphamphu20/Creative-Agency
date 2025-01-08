@@ -379,4 +379,13 @@
     .about-us__heading {
         width: 263px;
     }
+
+    /* process */
+    .process__heading {
+        width: 298px;
+    }
+
+    .process__desc {
+        padding-bottom: 10px;
+    }
 }
