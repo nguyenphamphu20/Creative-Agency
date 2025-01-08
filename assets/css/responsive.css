@@ -364,4 +364,19 @@
     .service__item {
         padding: 0 30px;
     }
+
+    /* about -us */
+    .about-us__img {
+        width: 158px;
+        height: 257px;
+    }
+
+    .about-us-trend {
+        width: 143px;
+        height: 144px;
+    }
+
+    .about-us__heading {
+        width: 263px;
+    }
 }
